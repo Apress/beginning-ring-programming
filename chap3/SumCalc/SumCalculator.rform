@@ -1,0 +1,88 @@
+# Start Form Designer File
+aObjectsList = [
+	[ :name = "Window" , :id = 1 , :classname = "formdesigner_qwidget" , :data = [
+		 :x = 24 , : y = 15  , 
+		 :width =  304 , :height = 279 , 
+		 :title =  "SumCalculator App" , 
+		 :backcolor =  "" , 
+		 :windowflags =  "Qt_Window" , 
+		 :mainlayout =  "" ,
+		 :WindowIcon =  "" , 
+		 :Menubar =  "aMenuData = [ :Text = 'The Menubar' , :Image = '' ,
+			         :Shortcut = '' , :Action = '' ,
+				:Children = [] ]"  ,
+		 :IndexType =  0  
+
+		]
+	],
+	[ :name = "edtNumber1" , :id = 2 , :classname = "formdesigner_qlineedit" , :data = [
+		 :x = 108 , : y = 31  , 
+		 :width =  160 , :height = 40 , 
+		 :textcolor =  "#000000" , 
+		 :backcolor =  "white" , 
+		 :font =  "MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "12",
+		 :setTextChangedEvent =  "calculateSum",
+		 :setcursorPositionChangedEvent =  "",
+		 :seteditingFinishedEvent =  "",
+		 :setreturnPressedEvent =  "",
+		 :setselectionChangedEvent =  "",
+		 :settextEditedEvent =  ""
+		]
+	],
+	[ :name = "edtNumber2" , :id = 4 , :classname = "formdesigner_qlineedit" , :data = [
+		 :x = 108 , : y = 85  , 
+		 :width =  160 , :height = 38 , 
+		 :textcolor =  "#000000" , 
+		 :backcolor =  "white" , 
+		 :font =  "MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "8",
+		 :setTextChangedEvent =  "",
+		 :setcursorPositionChangedEvent =  "",
+		 :seteditingFinishedEvent =  "",
+		 :setreturnPressedEvent =  "",
+		 :setselectionChangedEvent =  "",
+		 :settextEditedEvent =  ""
+		]
+	],
+	[ :name = "btnCalculateSum" , :id = 5 , :classname = "formdesigner_qpushbutton" , :data = [
+		 :x = 108 , : y = 137  , 
+		 :width =  160 , :height = 42 , 
+		 :textcolor =  "#000000" , 
+		 :backcolor =  "" , 
+		 :font =  "MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "Calculate Sum",
+		 :BtnImage =  "",
+		 :setClickEvent =  "calculateSum"
+		]
+	],
+	[ :name = "lblResult" , :id = 6 , :classname = "formdesigner_qlabel" , :data = [
+		 :x = 108 , : y = 194  , 
+		 :width =  160 , :height = 39 , 
+		 :textcolor =  "#ffffff" , 
+		 :backcolor =  "#6f6f6f" , 
+		 :font =  "MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "lblResult",
+		 :textalign =  0
+		]
+	],
+	[ :name = "WebView1" , :id = 7 , :classname = "formdesigner_qwebview" , :data = [
+		 :x = 8 , : y = 150  , 
+		 :width =  65 , :height = 60 , 
+		 :textcolor =  "black" , 
+		 :backcolor =  "" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :URL =  "",
+		 :setloadProgressEvent  =  "",
+		 :setloadStartedEvent  =  "",
+		 :setselectionChangedEvent  =  "",
+		 :seturlChangedEvent  =  ""
+		]
+	]
+]
+# End Form Designer File
