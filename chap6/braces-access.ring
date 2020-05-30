@@ -3,7 +3,7 @@
 p = new Person {
 	// the socpe moves from global to oboject scope
 	name = "Said" age = 44 # Object attributes are visible
-	? info()			 # The object method is visible
+	? info()	  # The object method is visible
 }
 // The scope turns back to global again
 // Let's create a second one

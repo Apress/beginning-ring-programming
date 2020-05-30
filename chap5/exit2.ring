@@ -1,9 +1,10 @@
-//*** Please note that the comment in the lissting in the bok
-// is not correct. Here I corrected it. I'm sorry for that.
-for x = 1 to 10 # The loop will skip one step when x reaches 3
-	if x = 3
-		see "Number Three" + NL
-		loop
-	ok
-	see x + NL
+for x = 1 to 10 # first level loop
+	for y = 1 to 10	# Second loop level
+		see "x = " + x + " y = " + y + NL
+		if x = 3 and y = 5
+			exit 2	# Exits from the 2 loops,
+				# not only the current one
+		ok
+	next
+
 next
