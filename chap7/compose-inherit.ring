@@ -1,8 +1,3 @@
-//*** Please note that this file is the same as 'object-way3.ring'
-//*** In the book we should keep only the current file 'compose-inherit.ring'
-//*** and avoid 'object-way3.ring' (unfortunately this is impossible now
-//*** since the book is under print). I'm so sorry for that.
-
 // A team is created
 oTeam1 = new Team {
 	oEmployee  = new Employee { name = "Bachir" }
