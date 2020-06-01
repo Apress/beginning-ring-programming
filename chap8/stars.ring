@@ -9,7 +9,7 @@ oGame = new Game {
  		scaled=true width=800 height=600
  		animate = false
  	}
-// RANDOMLY-MOVING STAR
+	// RANDOMLY-MOVING STAR
  	sprite {
  		file = "images/smstar.png"
  		x = 300 y = 100
